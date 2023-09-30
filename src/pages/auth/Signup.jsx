@@ -50,7 +50,6 @@ const Signup = () => {
     const formData = new FormData();
     formData.append("UserName", fullName);
     formData.append("Password", password);
-    console.log(formData);123
     // Make an API POST request for user registration
     axios.post("http://sumeada-001-site1.itempurl.com/UserToken/UserRejister", formData, {
       headers: {
