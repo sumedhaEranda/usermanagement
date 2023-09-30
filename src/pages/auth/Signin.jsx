@@ -37,7 +37,7 @@ const Signin = () => {
     formData.append("Password", password);
 
     // Make an API POST request with the correct content type
-    axios.post("http://sumeada-001-site1.itempurl.com/api/UserToken/gettoken", formData, {
+    axios.post("//sumeada-001-site1.itempurl.com/api/UserToken/gettoken", formData, {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded", // Set the correct content type
       },

@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 const Dashboard = () => {
   const history = useHistory();
   const [userCount,setUsercount]=useState("");
-  const apiUrl = 'http://sumeada-001-site1.itempurl.com/api/User/GetAllUserCount'; // Replace with your API URL
+  const apiUrl = '//sumeada-001-site1.itempurl.com/api/User/GetAllUserCount'; // Replace with your API URL
   const jwtToken = localStorage.getItem("jwtToken");  // Replace with your JWT token
 
   const fetchDataWithToken = async () => {
